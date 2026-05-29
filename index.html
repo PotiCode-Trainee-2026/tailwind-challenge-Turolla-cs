@@ -2,12 +2,301 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="public/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>tailwindtemplate</title>
+    <title>Turolla's wardrobe</title>
   </head>
-  <body>
-    <div class="bg-pink-500">oi galera :D</div>
+  <body class="bg-black">
+    <header class="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
+      <nav class=" bg-white flex justify-between items-center px-8 h-20">
+        <div class="flex-1 flex justify-start">
+          <img src="public/logo.png" alt="Logo of the brand" class="h-12 w-auto object-contain">
+        </div>
+        <div class="flex-1 flex justify-center text-black font-bold gap-8">
+          <a href="" class="hover:text-amber-600">SHOP</a>
+          <a href="" class="hover:text-amber-600">DROPS</a>
+          <a href="" class="hover:text-amber-600">LOOKBOOK</a>
+          <a href="" class="hover:text-amber-600">ABOUT</a>
+        </div>
+        <div class="flex-1 flex justify-end items-center gap-6  text-black font-medium">
+          <a href="">Search</a>
+          <a href="">Cart(0)</a>
+        </div>
+      </nav>
+    </header>
+
+
+    <section class="min-h-screen flex items-center justify-center p-6 md:p-12 lg:p-20 text-white antialiased">
+    <div class="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center">
+
+      <div class="flex flex-col justify-center">
+        
+        <p class="text-[rgb(255,107,0)] text-xs md:text-sm tracking-[0.2em] font-medium mb-8">
+          [SEASON 01 / DROP 04]
+        </p>
+
+        <h1 class="text-6xl md:text-7xl lg:text-[5.5rem] font-black uppercase leading-[0.9] tracking-tighter mb-8">
+          [YOUR<br />
+          NEWEST<br />
+          STREET<br />
+          STYLE]
+        </h1>
+
+        <p class="text-gray-400 text-sm md:text-base max-w-sm mb-10 leading-relaxed">
+          [We are bringing the future to your wardrobe]
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="#" class="bg-[rgb(255,107,0)] hover:bg-[rgb(230,96,0)] text-black font-bold text-sm uppercase tracking-wider py-4 px-8 text-center transition-colors duration-200">
+            Shop The Drop
+          </a>
+          <a href="#" class="bg-transparent border border-white hover:bg-white hover:text-black text-white font-bold text-sm uppercase tracking-wider py-4 px-8 text-center transition-colors duration-200">
+            Lookbook
+          </a>
+        </div>
+        
+      </div>
+
+     <div class="w-full bg-[rgb(17,17,17)] border border-neutral-800 overflow-hidden">
+        <img src="public/Gemini_Generated_Image_vbb0gvvbb0gvvbb0.png" alt="Example photo" class="w-full h-full object-cover object-center"/>
+      </div>
+
+    </div>
+    </section>
+
+
+    <div class="bg-[rgb(255,107,0)] text-black py-2.5 overflow-hidden select-none border-b border-black w-full">
+      <div class="flex whitespace-nowrap gap-8 text-xs md:text-sm font-black tracking-wider px-4 w-full">
+        <span>[NEW DROP] ◆ [FREE SHIPPING OVER $X] ◆ [LIMITED EDITION]</span>
+        <span>◆</span>
+        <span>[NEW DROP] ◆ [FREE SHIPPING OVER $X] ◆ [LIMITED EDITION]</span>
+        <span>◆</span>
+        <span>[NEW DROP] ◆ [FREE SHIPPING OVER $X] ◆ [LIMITED EDITION]</span>
+        <span>◆</span>
+        <span>[NEW DROP] ◆ [FREE SHIPPING OVER $X] ◆ [LIMITED EDITION]</span>
+      </div>
+    </div>
+
+
+    <section class="bg-[rgb(245,245,245)] text-black py-12 px-6 md:px-12 lg:px-20">
+      <div class="max-w-7xl mx-auto">
+        
+        <div class="flex justify-between items-end mb-8">
+          <h2 class="text-4xl md:text-6xl font-black uppercase leading-none tracking-tighter">
+            Shop<br>Categories
+          </h2>
+          <a href="#" class="text-sm font-bold uppercase tracking-wider underline underline-offset-4 hover:text-[rgb(255,107,0)] transition-colors">
+            View All →
+          </a>
+        </div>
+
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+          
+          <a href="#" class="group block">
+            <div class="w-full bg-neutral-200 border border-neutral-400 flex items-center justify-center p-4 transition-all group-hover:border-black">
+              <span class="text-neutral-500 text-xs uppercase tracking-widest font-mono"><img src="public/camisa.jpeg" alt=""></span>
+            </div>
+            <div class="mt-3 flex justify-between items-center font-black text-sm md:text-base uppercase">
+              <span>[TEES]</span>
+              <span class="transform group-hover:translate-x-1 transition-transform">→</span>
+            </div>
+          </a>
+
+          <a href="#" class="group block">
+            <div class="w-full bg-neutral-200 border border-neutral-400 flex items-center justify-center p-4 transition-all group-hover:border-black">
+              <span class="text-neutral-500 text-xs uppercase tracking-widest font-mono"><img src="public/hoddie.jpeg" alt=""></span>
+            </div>
+            <div class="mt-3 flex justify-between items-center font-black text-sm md:text-base uppercase">
+              <span>[HOODIES]</span>
+              <span class="transform group-hover:translate-x-1 transition-transform">→</span>
+            </div>
+          </a>
+
+          <a href="#" class="group block">
+            <div class="w-full bg-neutral-200 border border-neutral-400 flex items-center justify-center p-4 transition-all group-hover:border-black">
+              <span class="text-neutral-500 text-xs uppercase tracking-widest font-mono"><img src="public/outerware.jpeg" alt=""></span>
+            </div>
+            <div class="mt-3 flex justify-between items-center font-black text-sm md:text-base uppercase">
+              <span>[OUTERWEAR]</span>
+              <span class="transform group-hover:translate-x-1 transition-transform">→</span>
+            </div>
+          </a>
+
+          <a href="#" class="group block">
+            <div class="w-full bg-neutral-200 border border-neutral-400 flex items-center justify-center p-4 transition-all group-hover:border-black">
+              <span class="text-neutral-500 text-xs uppercase tracking-widest font-mono"><img src="public/cordao.jpeg" alt=""></span>
+            </div>
+            <div class="mt-3 flex justify-between items-center font-black text-sm md:text-base uppercase">
+              <span>[ACCESSORIES]</span>
+              <span class="transform group-hover:translate-x-1 transition-transform">→</span>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+
+    
+    <section class="bg-[rgb(245,245,245)] text-black py-12 px-6 md:px-12 lg:px-20 border-t border-neutral-300">
+      <div class="max-w-7xl mx-auto">
+        
+        <div class="mb-8">
+          <p class="text-xs text-neutral-500 uppercase tracking-widest font-mono mb-2">[LATEST DROP]</p>
+          <h2 class="text-4xl md:text-6xl font-black uppercase leading-none tracking-tighter">
+            Featured<br>Pieces
+          </h2>
+        </div>
+
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-y-10 gap-x-4 md:gap-x-6">
+          
+          <div class="group cursor-pointer">
+            <div class="relative w-full aspect-square bg-white border border-neutral-400 flex items-center justify-center p-4 transition-all group-hover:border-black">
+              <span class="absolute top-2 left-2 bg-[rgb(255,107,0)] text-black text-[10px] font-black uppercase px-1.5 py-0.5">
+                NEW
+              </span>
+              <span class="text-neutral-400 text-xs uppercase tracking-widest font-mono"><img src="public/hat.jpeg" alt=""></span>
+            </div>
+            <div class="mt-3 font-mono text-xs md:text-sm">
+              <p class="font-black text-black uppercase">[Golden Hat]</p>
+              <p class="text-neutral-600">$[28.00]</p>
+            </div>
+          </div>
+
+          <div class="group cursor-pointer">
+            <div class="relative w-full aspect-square bg-white border border-neutral-400 flex items-center justify-center p-4 transition-all group-hover:border-black">
+              <span class="absolute top-2 left-2 bg-[rgb(255,107,0)] text-black text-[10px] font-black uppercase px-1.5 py-0.5">NEW</span>
+              <span class="text-neutral-400 text-xs uppercase tracking-widest font-mono"><img src="public/shoe.jpeg" alt=""></span>
+            </div>
+            <div class="mt-3 font-mono text-xs md:text-sm">
+              <p class="font-black text-black uppercase">[Streetware shoes]</p>
+              <p class="text-neutral-600">$[45.00]</p>
+            </div>
+          </div>
+
+          <div class="group cursor-pointer">
+            <div class="relative w-full aspect-square bg-white border border-neutral-400 flex items-center justify-center p-4 transition-all group-hover:border-black">
+              <span class="absolute top-2 left-2 bg-[rgb(255,107,0)] text-black text-[10px] font-black uppercase px-1.5 py-0.5">NEW</span>
+              <span class="text-neutral-400 text-xs uppercase tracking-widest font-mono"><img src="public/labubu.jpeg" alt=""></span>
+            </div>
+            <div class="mt-3 font-mono text-xs md:text-sm">
+              <p class="font-black text-black uppercase">[Labubu]</p>
+              <p class="text-neutral-600">$[1000.00]</p>
+            </div>
+          </div>
+
+          <div class="group cursor-pointer">
+            <div class="relative w-full aspect-square bg-white border border-neutral-400 flex items-center justify-center p-4 transition-all group-hover:border-black">
+              <span class="absolute top-2 left-2 bg-[rgb(255,107,0)] text-black text-[10px] font-black uppercase px-1.5 py-0.5">NEW</span>
+              <span class="text-neutral-400 text-xs uppercase tracking-widest font-mono"><img src="public/unoteee.jpeg" alt=""></span>
+            </div>
+            <div class="mt-3 font-mono text-xs md:text-sm">
+              <p class="font-black text-black uppercase">Fiat Uno Tee-Shirt</p>
+              <p class="text-neutral-600">$[44.00]</p>
+            </div>
+          </div>
+
+          </div>
+      </div>
+    </section>
+
+
+    <section class="bg-[rgb(245,245,245)] text-black py-12 px-6 md:px-12 lg:px-20 border-t border-neutral-300">
+      <div class="max-w-7xl mx-auto">
+        
+        <div class="mb-8">
+          <p class="text-xs text-neutral-500 uppercase tracking-widest font-mono mb-2">[EDITORIAL]</p>
+          <h2 class="text-4xl md:text-6xl font-black uppercase leading-none tracking-tighter">
+            Lookbook<br>[SS/26]
+          </h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+  
+          <div class="md:row-span-2 bg-neutral-200 border border-neutral-400 min-h-112 overflow-hidden">
+            <img src="public/look1.jpeg" alt="Look 1" class="w-full h-full object-cover object-center">
+          </div>
+
+          <div class="bg-neutral-200 border border-neutral-400 aspect-square overflow-hidden">
+            <img src="public/look2.jpeg" alt="Look 2" class="w-full h-full object-cover object-center">
+          </div>
+
+          <div class="bg-neutral-200 border border-neutral-400 aspect-square overflow-hidden">
+            <img src="public/look3.jpeg" alt="Look 3" class="w-full h-full object-cover object-center">
+          </div>
+
+          <div class="bg-neutral-200 border border-neutral-400 aspect-square overflow-hidden">
+            <img src="public/look4.jpeg" alt="Look 4" class="w-full h-full object-cover object-center">
+          </div>
+
+          <div class="bg-black text-white aspect-square flex flex-col items-center justify-center p-8 text-center">
+            <p class="font-black text-base md:text-lg uppercase tracking-tight max-w-50">
+              OUR CLOTHES ARE FROM THE PEOPLE TO THE PEOPLE
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="bg-[rgb(255,107,0)] text-black pt-16 pb-8 px-6 md:px-12 lg:px-20 border-t border-black">
+      <div class="max-w-7xl mx-auto">
+        
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-8 mb-12">
+          
+          <div class="col-span-2">
+            <h3 class="text-2xl font-black uppercase tracking-tighter mb-2"><img src="public/logo.png" alt=""></h3>
+            <p class="text-sm font-medium font-mono text-black/80">[Wear free, wear now.]</p>
+          </div>
+
+          <div>
+            <h4 class="text-xs font-black uppercase tracking-widest mb-4">Shop</h4>
+            <ul class="space-y-2 text-sm font-mono text-black/70 font-medium">
+              <li><a href="#" class="hover:text-black hover:underline">[New Arrivals]</a></li>
+              <li><a href="#" class="hover:text-black hover:underline">[Tees]</a></li>
+              <li><a href="#" class="hover:text-black hover:underline">[Hoodies]</a></li>
+              <li><a href="#" class="hover:text-black hover:underline">[Sale]</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-xs font-black uppercase tracking-widest mb-4">Info</h4>
+            <ul class="space-y-2 text-sm font-mono text-black/70 font-medium">
+              <li><a href="#" class="hover:text-black hover:underline">[About]</a></li>
+              <li><a href="#" class="hover:text-black hover:underline">[Shipping]</a></li>
+              <li><a href="#" class="hover:text-black hover:underline">[Returns]</a></li>
+              <li><a href="#" class="hover:text-black hover:underline">[Contact]</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-xs font-black uppercase tracking-widest mb-4">Follow</h4>
+            <ul class="space-y-2 text-sm font-mono text-black/70 font-medium">
+              <li><a href="#" class="hover:text-black hover:underline">[Instagram]</a></li>
+              <li><a href="#" class="hover:text-black hover:underline">[TikTok]</a></li>
+              <li><a href="#" class="hover:text-black hover:underline">[YouTube]</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="border-t border-black/30 my-6"></div>
+
+        <div class="flex flex-col md:flex-row justify-between items-center gap-4 text-[11px] font-mono font-medium text-black/80">
+          <div>
+            © [2026] [Turolla's Wardrobe]. ALL RIGHTS RESERVED.
+          </div>
+          <div class="flex gap-4">
+            <a href="#" class="hover:underline">[PRIVACY]</a>
+            <span>·</span>
+            <a href="#" class="hover:underline">[TERMS]</a>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
   </body>
   <script type="module" src="./src/main.js"></script>
 </html>
